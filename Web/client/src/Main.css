@@ -1,0 +1,144 @@
+.root{
+    height: 1000px;
+    background:linear-gradient(to bottom, #FFFFFF, #68B2A0);
+    margin: 1rem 2rem;
+    border-radius: 7px;
+    position: relative;
+}
+.Contain{
+    margin-top: 30px;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    position: absolute;
+}
+.Header-Contain{
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.Temperature ,.Humidity,.Light{
+    height: 100%;
+    background-color: rgb(255,255,255) ;
+    border-radius: 7px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.Temperature{
+    font-family: 'Pacifico', cursive;
+}
+.Humidity{
+    font-family: 'Pacifico', cursive;
+}
+.Light{
+    font-family: 'Pacifico', cursive;
+}
+.top-hea{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.bot-hea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+}
+.battatden{
+    display:  flex;
+}
+.bot-hea h3{
+    font-weight: 600;
+    font-size: 30px;
+    padding: 4px;
+}
+.heart1-icon {
+    font-size: 30px;
+}
+.heart2-icon{
+    font-size: 20px;
+}
+.Bot-Contain{
+    height: 400px;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 40px;
+    display: flex;
+    
+}
+.left-bot-contain{
+    width: 67%;
+    height: 440px;
+    background-color: rgb(255,255,255);
+    border-radius: 7px;
+}
+.right-bot-contain{
+    width: 28%;
+    height: 440px;
+    border-radius: 7px;
+    margin-left: 5%;
+}
+.ball-light, .fan{
+    width:100%;
+    height: 200px;
+    background-color: rgb(255,255,255);
+    border-radius: 7px;
+    display: flex;
+}
+.fan{
+    margin-top: 40px;
+}
+/* .contain-light{
+    
+}
+.contain-fan{
+    
+} */
+.fan-gif img{
+   min-width: 300px;
+   min-height: 100px;
+   max-height: 200px;
+   border-radius: 7px;
+}
+.fan-gif{
+    border-radius: 7px;
+}
+
+.ball-light-gif{
+    border-radius: 7px;
+}
+.ball-light-gif img{
+    min-width: 300px;
+    min-height: 100px;
+    max-height: 200px;
+    border-radius: 7px;
+}
+.but-ball, .but-fan{
+    width: 70px;
+    height: 200px;
+    
+}
+
+.but-ball-onoff,.but-fan-onoff {
+    height: 100px;
+    width: 65px;
+    margin-left: 0px;
+    border-radius: 7px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+    background: linear-gradient(to bottom, #FCA5F1, #B5FFFF);
+}
+.img-root{
+    max-width: 70px;
+    max-height: 70px;
+    position:absolute;
+    margin-top: 320px;
+    border-radius: 10px;
+}

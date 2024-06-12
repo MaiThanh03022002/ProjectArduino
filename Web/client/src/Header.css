@@ -1,0 +1,116 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+    width: 90%;
+    height: 80px;
+    border-radius: 13px;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform:translate(-50%);
+    background-color: #fff;
+    z-index: 1;
+
+}
+.home {
+    text-decoration: none;
+}
+
+.home-h1 {
+    font-family: 'Pacifico', cursive;
+    color: green;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 40px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 20px;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: green;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+    font-family: 'Pacifico', cursive;
+}
+
+i {
+    padding: 0 10px 0 0;
+}
+
+.nav-link:hover{
+    background-color: green;
+    color: #fff ;
+    border-radius: 4px ;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-control-input{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px ;
+  }
+  .nav-link-ul a{
+    text-decoration: none;
+  }
+  .input-group-btn {
+    margin-left: 10px;
+  }
+  
+  .btn-default {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+  }
+  
+  .Navitems{
+    position: relative;
+  }
+  
+  .out-menu{
+    position: absolute;
+    margin-top: 10px;
+    padding-left: 0px;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    display: block;
+    border: 2px solid #ccc;
+    text-align: start;
+    align-items: start;
+    background-color: white;
+    padding-top: 10px;
+    display: none;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+  }
+  .nav-link:hover.out-menu{
+    display: block;
+  }
+  .nav-link {
+    position: relative; 
+  }
+  .nav-link:hover .out-menu {
+    display: block; 
+  }

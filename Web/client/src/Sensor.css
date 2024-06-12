@@ -1,0 +1,24 @@
+.sen{
+    margin-top: 30px;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    position: absolute;
+}
+.tbl-sen{
+    width: 100%;
+    border-radius: 7px;
+    height: inherit;
+    border: 4px solid rgb(21, 194, 84);
+    background: linear-gradient(to bottom, #FCA5F1, #B5FFFF);
+}
+.tbl-sen table {
+    border: 3px solid rgb(21, 194, 84);
+    border-collapse: inherit;
+}
+th ,td{
+    border: 1px solid rgb(21, 194, 84);
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
